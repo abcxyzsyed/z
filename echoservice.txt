@@ -1,0 +1,17 @@
+program
+echo_prg{version
+echo_ver{
+string echo(string)=1;
+}=1;
+}=0x20000021;
+
+echo_1_arg=(char*)malloc(sizeof(char)*25);
+printf("\nEnter a message:");
+scanf("%s",echo_1_arg);
+*result_1=(char*)malloc(sizeof(char)*25);
+
+printf("result=%s",*result_1);
+
+
+result=(char*)malloc(sizeof(char)*25);
+strcpy(result,*argp);
